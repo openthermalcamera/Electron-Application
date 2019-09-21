@@ -1,0 +1,29 @@
+{
+    "name": "otc-app",
+    "version": "1.0.0",
+    "description": "OTC cross-platform desktop application built with electron",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "install": "electron-rebuild"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:openthermalcamera/Electron-Application.git"
+    },
+    "keywords": [
+        "Electron",
+        "quick",
+        "start",
+        "tutorial",
+        "demo"
+    ],
+    "devDependencies": {
+        "electron": "^5.0.5",
+        "electron-rebuild": "^1.8.5"
+    },
+    "dependencies": {
+        "otc": "^0.1.3",
+        "serialport": "^7.1.5"
+    }
+}
